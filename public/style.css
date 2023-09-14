@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+.custom-bg{
+    background-color:rgb(37, 150, 190)
+}
+.img-fluid{
+    width: 150px;
+    margin-right: 25px;
+    margin-top: -15px;
+}
+
+ul,ol,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-root {
+    display: flex;
+}
+
+.card-img-top {
+    height: 250px; /* ou la hauteur désirée */
+    object-fit: cover; /* cela garantit que l'image couvre la zone sans déformation */
+}
+
